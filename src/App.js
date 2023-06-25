@@ -1,10 +1,10 @@
-import {Context} from "./hooks/Context/Context";
+import {Reducer} from "./hooks/Reducer/Reducer";
 
 function App() {
   return (
-    <div>
-        <Context />
-    </div>
+    <>
+        <Reducer />
+    </>
   );
 }
 
