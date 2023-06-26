@@ -1,11 +1,12 @@
-import {Reducer} from "./hooks/Reducer/Reducer";
+import React from "react";
+import {Demo} from "./hooks/Custom/Demo";
 
 function App() {
-  return (
-    <>
-        <Reducer />
-    </>
-  );
+    return (
+        <>
+            <Demo/>
+        </>
+    );
 }
 
 export default App;
